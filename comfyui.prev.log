@@ -1,0 +1,111 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-07-03 01:44] ** ComfyUI startup time: 2024-07-03 01:44:14.249729
+[2024-07-03 01:44] ** Platform: Windows
+[2024-07-03 01:44] ** Python version: 3.11.6 (tags/v3.11.6:8b6ee5b, Oct  2 2023, 14:57:12) [MSC v.1935 64 bit (AMD64)]
+[2024-07-03 01:44] ** Python executable: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\python.exe
+[2024-07-03 01:44] ** ComfyUI Path: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\main.py
+[2024-07-03 01:44] ** Log path: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\comfyui.log
+[2024-07-03 01:44] 
+Prestartup times for custom nodes:
+[2024-07-03 01:44]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\rgthree-comfy
+[2024-07-03 01:44]    0.9 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-07-03 01:44] 
+[2024-07-03 01:44] [Crystools [0;32mINFO[0m] Crystools version: 1.12.0
+[2024-07-03 01:44] [Crystools [0;32mINFO[0m] CPU: 13th Gen Intel(R) Core(TM) i5-13600KF - Arch: AMD64 - OS: Windows 10
+[2024-07-03 01:44] [Crystools [0;32mINFO[0m] GPU/s:
+[2024-07-03 01:44] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 4060 Ti
+[2024-07-03 01:44] [Crystools [0;32mINFO[0m] NVIDIA Driver: 552.22
+F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\dual_transformer_2d.py:20: FutureWarning: `DualTransformer2DModel` is deprecated and will be removed in version 0.29. Importing `DualTransformer2DModel` from `diffusers.models.dual_transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.dual_transformer_2d import DualTransformer2DModel`, instead.
+  deprecate("DualTransformer2DModel", "0.29", deprecation_message)
+[2024-07-03 01:44] F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\transformer_2d.py:20: FutureWarning: `Transformer2DModelOutput` is deprecated and will be removed in version 0.29. Importing `Transformer2DModelOutput` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.transformer_2d import Transformer2DModelOutput`, instead.
+  deprecate("Transformer2DModelOutput", "0.29", deprecation_message)
+[2024-07-03 01:44] F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\transformer_2d.py:25: FutureWarning: `Transformer2DModel` is deprecated and will be removed in version 0.29. Importing `Transformer2DModel` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.transformer_2d import Transformer2DModel`, instead.
+  deprecate("Transformer2DModel", "0.29", deprecation_message)
+[2024-07-03 01:44] ### Loading: ComfyUI-Impact-Pack (V5.18.6)
+[2024-07-03 01:44] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.6)
+[2024-07-03 01:44] [Impact Pack] Wildcards loading done.
+[2024-07-03 01:44] ### Loading: ComfyUI-Manager (V2.43)
+[2024-07-03 01:44] ### ComfyUI Revision: 2321 [2f032016] | Released on '2024-07-02'
+[2024-07-03 01:44] Exception in thread Thread-11 (<lambda>):
+[2024-07-03 01:44] Traceback (most recent call last):
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\connector.py", line 1169, in _create_direct_connection
+[2024-07-03 01:44]     hosts = await asyncio.shield(host_resolved)
+[2024-07-03 01:44]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\connector.py", line 880, in _resolve_host
+[2024-07-03 01:44]     addrs = await self._resolver.resolve(host, port, family=self._family)
+[2024-07-03 01:44]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+[2024-07-03 01:44]     infos = await self._loop.getaddrinfo(
+[2024-07-03 01:44]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:44]   File "asyncio\base_events.py", line 867, in getaddrinfo
+[2024-07-03 01:44]   File "concurrent\futures\thread.py", line 58, in run
+[2024-07-03 01:44]   File "socket.py", line 962, in getaddrinfo
+[2024-07-03 01:44] socket.gaierror: [Errno 11004] getaddrinfo failed
+[2024-07-03 01:44] 
+[2024-07-03 01:44] The above exception was the direct cause of the following exception:
+[2024-07-03 01:44] 
+[2024-07-03 01:44] Traceback (most recent call last):
+[2024-07-03 01:44]   File "threading.py", line 1045, in _bootstrap_inner
+[2024-07-03 01:44]   File "threading.py", line 982, in run
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1694, in <lambda>
+[2024-07-03 01:44]     threading.Thread(target=lambda: asyncio.run(default_cache_update())).start()
+[2024-07-03 01:44]                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:44]   File "asyncio\runners.py", line 190, in run
+[2024-07-03 01:44]   File "asyncio\runners.py", line 118, in run
+[2024-07-03 01:44]   File "asyncio\base_events.py", line 653, in run_until_complete
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1691, in default_cache_update
+[2024-07-03 01:44]     await asyncio.gather(a, b, c, d, e)
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1678, in get_cache
+[2024-07-03 01:44]     json_obj = await core.get_data(uri, True)
+[2024-07-03 01:44]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\glob\manager_core.py", line 594, in get_data
+[2024-07-03 01:44]     async with session.get(uri) as resp:
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\client.py", line 1187, in __aenter__
+[2024-07-03 01:44]     self._resp = await self._coro
+[2024-07-03 01:44]                  ^^^^^^^^^^^^^^^^
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\client.py", line 574, in _request
+[2024-07-03 01:44]     conn = await self._connector.connect(
+[2024-07-03 01:44]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\connector.py", line 540, in connect
+[2024-07-03 01:44]     proto = await self._create_connection(req, traces, timeout)
+[2024-07-03 01:44]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\connector.py", line 907, in _create_connection
+[2024-07-03 01:44]     _, proto = await self._create_direct_connection(req, traces, timeout)
+[2024-07-03 01:44]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:44]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\connector.py", line 1183, in _create_direct_connection
+[2024-07-03 01:44]     raise ClientConnectorError(req.connection_key, exc) from exc
+[2024-07-03 01:44] aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host raw.githubusercontent.com:443 ssl:default [getaddrinfo failed]
+[2024-07-03 01:44] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: AzureExecutionProvider, CPUExecutionProvider
+[2024-07-03 01:44] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2024-07-03 01:44] ### Loading: Workspace Manager (V1.0.0)
+[2024-07-03 01:44] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2024-07-03 01:44] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-07-03 01:44] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-07-03 01:44] F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui_controlnet_aux\node_wrappers\dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2024-07-03 01:44] [1;35m### [START] ComfyUI AlekPet Nodes ###[0m
+[2024-07-03 01:44] [92mNode -> ArgosTranslateNode [Loading][0m
+[2024-07-03 01:44] [92mNode -> ExtrasNode [Loading][0m
+[2024-07-03 01:44] [92mNode -> PainterNode [Loading][0m
+[2024-07-03 01:44] [92mNode -> PoseNode [Loading][0m
+[2024-07-03 01:44] [92mNode -> TranslateNode [Loading][0m
+[2024-07-03 01:44] [1;35m### [END] ComfyUI AlekPet Nodes ###[0m
+[2024-07-03 01:44] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[2024-07-03 01:44] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-07-03 01:44] 
+[2024-07-03 01:44] [92m[rgthree] Loaded 39 exciting nodes.[0m
+[2024-07-03 01:44] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-07-03 01:44] 
+[2024-07-03 01:44] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-07-03 01:44] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\was-node-suite-comfyui\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-07-03 01:44] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m213[0m [32mnodes successfully.[0m
+[2024-07-03 01:44] 
+	[3m[93m"Art is the magic that brings beauty into the world."[0m[3m - Unknown[0m
+[2024-07-03 01:44] 
+[2024-07-03 01:44] FETCH DATA from: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
+[2024-07-03 01:44] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-07-03 01:44] [32m[rgthree][0m First run patching recursive_output_delete_if_changed and recursive_will_execute.[0m
+[2024-07-03 01:44] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[0m
+[2024-07-03 01:44] 100%|██████████| 20/20 [00:02<00:00,  8.07it/s]100%|██████████| 20/20 [00:02<00:00,  7.18it/s]
+[2024-07-03 01:45] [32m[rgthree] Using rgthree's optimized recursive execution.[0m
+[2024-07-03 01:45] 100%|██████████| 20/20 [00:01<00:00, 12.11it/s]

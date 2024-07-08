@@ -1,0 +1,170 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-07-03 01:38] ** ComfyUI startup time: 2024-07-03 01:38:44.602589
+[2024-07-03 01:38] ** Platform: Windows
+[2024-07-03 01:38] ** Python version: 3.11.6 (tags/v3.11.6:8b6ee5b, Oct  2 2023, 14:57:12) [MSC v.1935 64 bit (AMD64)]
+[2024-07-03 01:38] ** Python executable: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\python.exe
+[2024-07-03 01:38] ** ComfyUI Path: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\main.py
+[2024-07-03 01:38] ** Log path: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\comfyui.log
+[2024-07-03 01:38] 
+Prestartup times for custom nodes:
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\rgthree-comfy
+[2024-07-03 01:38]    0.8 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-07-03 01:38] 
+Total VRAM 16380 MB, total RAM 48992 MB
+[2024-07-03 01:38] pytorch version: 2.1.1+cu121
+[2024-07-03 01:38] Set vram state to: NORMAL_VRAM
+[2024-07-03 01:38] Device: cuda:0 NVIDIA GeForce RTX 4060 Ti : cudaMallocAsync
+[2024-07-03 01:38] Using pytorch cross attention
+[2024-07-03 01:38] Adding extra search path checkpoints F:\SD_ui\sd-webui-aki-v4.7\models/Stable-diffusion
+[2024-07-03 01:38] Adding extra search path configs F:\SD_ui\sd-webui-aki-v4.7\models/Stable-diffusion
+[2024-07-03 01:38] Adding extra search path vae F:\SD_ui\sd-webui-aki-v4.7\models/VAE
+[2024-07-03 01:38] Adding extra search path loras F:\SD_ui\sd-webui-aki-v4.7\models/Lora
+[2024-07-03 01:38] Adding extra search path loras F:\SD_ui\sd-webui-aki-v4.7\models/LyCORIS
+[2024-07-03 01:38] Adding extra search path upscale_models F:\SD_ui\sd-webui-aki-v4.7\models/ESRGAN
+[2024-07-03 01:38] Adding extra search path upscale_models F:\SD_ui\sd-webui-aki-v4.7\models/RealESRGAN
+[2024-07-03 01:38] Adding extra search path upscale_models F:\SD_ui\sd-webui-aki-v4.7\models/SwinIR
+[2024-07-03 01:38] Adding extra search path embeddings F:\SD_ui\sd-webui-aki-v4.7\embeddings
+[2024-07-03 01:38] Adding extra search path hypernetworks F:\SD_ui\sd-webui-aki-v4.7\models/hypernetworks
+[2024-07-03 01:38] Adding extra search path controlnet F:\SD_ui\sd-webui-aki-v4.7\models/ControlNet
+[2024-07-03 01:38] [Crystools [0;32mINFO[0m] Crystools version: 1.12.0
+[2024-07-03 01:38] [Crystools [0;32mINFO[0m] CPU: 13th Gen Intel(R) Core(TM) i5-13600KF - Arch: AMD64 - OS: Windows 10
+[2024-07-03 01:38] [Crystools [0;32mINFO[0m] GPU/s:
+[2024-07-03 01:38] [Crystools [0;32mINFO[0m] 0) NVIDIA GeForce RTX 4060 Ti
+[2024-07-03 01:38] [Crystools [0;32mINFO[0m] NVIDIA Driver: 552.22
+[2024-07-03 01:38] Traceback (most recent call last):
+  File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\nodes.py", line 1906, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\SD_ui\\ComfyUI_windows\\ComfyUI_windows_portable\\ComfyUI\\custom_nodes\\ComfyUI-Frame-Interpolation\\__init__.py'
+
+[2024-07-03 01:38] Cannot import F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Frame-Interpolation module for custom nodes: [Errno 2] No such file or directory: 'F:\\SD_ui\\ComfyUI_windows\\ComfyUI_windows_portable\\ComfyUI\\custom_nodes\\ComfyUI-Frame-Interpolation\\__init__.py'
+[2024-07-03 01:38] Note: NumExpr detected 20 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-07-03 01:38] NumExpr defaulting to 8 threads.
+[2024-07-03 01:38] F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\dual_transformer_2d.py:20: FutureWarning: `DualTransformer2DModel` is deprecated and will be removed in version 0.29. Importing `DualTransformer2DModel` from `diffusers.models.dual_transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.dual_transformer_2d import DualTransformer2DModel`, instead.
+  deprecate("DualTransformer2DModel", "0.29", deprecation_message)
+[2024-07-03 01:38] F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\transformer_2d.py:20: FutureWarning: `Transformer2DModelOutput` is deprecated and will be removed in version 0.29. Importing `Transformer2DModelOutput` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.transformer_2d import Transformer2DModelOutput`, instead.
+  deprecate("Transformer2DModelOutput", "0.29", deprecation_message)
+[2024-07-03 01:38] F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\diffusers\models\transformer_2d.py:25: FutureWarning: `Transformer2DModel` is deprecated and will be removed in version 0.29. Importing `Transformer2DModel` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.transformers.transformer_2d import Transformer2DModel`, instead.
+  deprecate("Transformer2DModel", "0.29", deprecation_message)
+[2024-07-03 01:38] ### Loading: ComfyUI-Impact-Pack (V5.11.5)
+[2024-07-03 01:38] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.6)
+[2024-07-03 01:38] [Impact Pack] Wildcards loading done.
+[2024-07-03 01:38] Total VRAM 16380 MB, total RAM 48992 MB
+[2024-07-03 01:38] pytorch version: 2.1.1+cu121
+[2024-07-03 01:38] Set vram state to: NORMAL_VRAM
+[2024-07-03 01:38] Device: cuda:0 NVIDIA GeForce RTX 4060 Ti : cudaMallocAsync
+[2024-07-03 01:38] ### Loading: ComfyUI-Manager (V2.43)
+[2024-07-03 01:38] ### ComfyUI Revision: 2284 [69d710e4] | Released on '2024-06-25'
+[2024-07-03 01:38] Exception in thread Thread-11 (<lambda>):
+[2024-07-03 01:38] Traceback (most recent call last):
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\connector.py", line 1169, in _create_direct_connection
+[2024-07-03 01:38]     hosts = await asyncio.shield(host_resolved)
+[2024-07-03 01:38]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\connector.py", line 880, in _resolve_host
+[2024-07-03 01:38]     addrs = await self._resolver.resolve(host, port, family=self._family)
+[2024-07-03 01:38]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+[2024-07-03 01:38]     infos = await self._loop.getaddrinfo(
+[2024-07-03 01:38]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:38]   File "asyncio\base_events.py", line 867, in getaddrinfo
+[2024-07-03 01:38]   File "concurrent\futures\thread.py", line 58, in run
+[2024-07-03 01:38]   File "socket.py", line 962, in getaddrinfo
+[2024-07-03 01:38] socket.gaierror: [Errno 11004] getaddrinfo failed
+[2024-07-03 01:38] 
+[2024-07-03 01:38] The above exception was the direct cause of the following exception:
+[2024-07-03 01:38] 
+[2024-07-03 01:38] Traceback (most recent call last):
+[2024-07-03 01:38]   File "threading.py", line 1045, in _bootstrap_inner
+[2024-07-03 01:38]   File "threading.py", line 982, in run
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1694, in <lambda>
+[2024-07-03 01:38]     threading.Thread(target=lambda: asyncio.run(default_cache_update())).start()
+[2024-07-03 01:38]                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:38]   File "asyncio\runners.py", line 190, in run
+[2024-07-03 01:38]   File "asyncio\runners.py", line 118, in run
+[2024-07-03 01:38]   File "asyncio\base_events.py", line 653, in run_until_complete
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1691, in default_cache_update
+[2024-07-03 01:38]     await asyncio.gather(a, b, c, d, e)
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\glob\manager_server.py", line 1678, in get_cache
+[2024-07-03 01:38]     json_obj = await core.get_data(uri, True)
+[2024-07-03 01:38]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\glob\manager_core.py", line 594, in get_data
+[2024-07-03 01:38]     async with session.get(uri) as resp:
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\client.py", line 1187, in __aenter__
+[2024-07-03 01:38]     self._resp = await self._coro
+[2024-07-03 01:38]                  ^^^^^^^^^^^^^^^^
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\client.py", line 574, in _request
+[2024-07-03 01:38]     conn = await self._connector.connect(
+[2024-07-03 01:38]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\connector.py", line 540, in connect
+[2024-07-03 01:38]     proto = await self._create_connection(req, traces, timeout)
+[2024-07-03 01:38]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\connector.py", line 907, in _create_connection
+[2024-07-03 01:38]     _, proto = await self._create_direct_connection(req, traces, timeout)
+[2024-07-03 01:38]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-07-03 01:38]   File "F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\python_embeded\Lib\site-packages\aiohttp\connector.py", line 1183, in _create_direct_connection
+[2024-07-03 01:38]     raise ClientConnectorError(req.connection_key, exc) from exc
+[2024-07-03 01:38] aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host raw.githubusercontent.com:443 ssl:default [getaddrinfo failed]
+[2024-07-03 01:38] (pysssss:WD14Tagger) [DEBUG] Available ORT providers: AzureExecutionProvider, CPUExecutionProvider
+[2024-07-03 01:38] (pysssss:WD14Tagger) [DEBUG] Using ORT providers: CUDAExecutionProvider, CPUExecutionProvider
+[2024-07-03 01:38] ### Loading: Workspace Manager (V1.0.0)
+[2024-07-03 01:38] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[2024-07-03 01:38] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-07-03 01:38] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-07-03 01:38] F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui_controlnet_aux\node_wrappers\dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+[2024-07-03 01:38] [1;35m### [START] ComfyUI AlekPet Nodes ###[0m
+[2024-07-03 01:38] [92mNode -> ArgosTranslateNode [Loading][0m
+[2024-07-03 01:38] [92mNode -> ExtrasNode [Loading][0m
+[2024-07-03 01:38] [92mNode -> PainterNode [Loading][0m
+[2024-07-03 01:38] [92mNode -> PoseNode [Loading][0m
+[2024-07-03 01:38] [92mNode -> TranslateNode [Loading][0m
+[2024-07-03 01:38] [1;35m### [END] ComfyUI AlekPet Nodes ###[0m
+[2024-07-03 01:38] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[2024-07-03 01:38] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-07-03 01:38] 
+[2024-07-03 01:38] [92m[rgthree] Loaded 39 extraordinary nodes.[0m
+[2024-07-03 01:38] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-07-03 01:38] 
+[2024-07-03 01:38] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-07-03 01:38] [34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\was-node-suite-comfyui\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[2024-07-03 01:38] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m213[0m [32mnodes successfully.[0m
+[2024-07-03 01:38] 
+	[3m[93m"Art is the only way to run away without leaving home."[0m[3m - Twyla Tharp[0m
+[2024-07-03 01:38] 
+[2024-07-03 01:38] 
+Import times for custom nodes:
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\websocket_image_save.py
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\AIGODLIKE-ComfyUI-Translation-main
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_TiledIPAdapter
+[2024-07-03 01:38]    0.0 seconds (IMPORT FAILED): F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Frame-Interpolation
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-WD14-Tagger
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_experiments
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\cg-use-everywhere
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-inpaint-nodes
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_FizzNodes
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-IPAnimate
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_UltimateSDUpscale
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Advanced-ControlNet
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Custom-Scripts
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-workspace-manager
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-AnimateDiff-Evolved
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-KJNodes
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_essentials
+[2024-07-03 01:38]    0.0 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\rgthree-comfy
+[2024-07-03 01:38]    0.1 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\efficiency-nodes-comfyui
+[2024-07-03 01:38]    0.2 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui_controlnet_aux
+[2024-07-03 01:38]    0.2 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-VideoHelperSuite
+[2024-07-03 01:38]    0.3 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager
+[2024-07-03 01:38]    0.5 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Impact-Pack
+[2024-07-03 01:38]    1.3 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\was-node-suite-comfyui
+[2024-07-03 01:38]    1.6 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-IDM-VTON
+[2024-07-03 01:38]    2.6 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Crystools
+[2024-07-03 01:38]    3.8 seconds: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_Custom_Nodes_AlekPet
+[2024-07-03 01:38] 
+[2024-07-03 01:38] Starting server
+
+[2024-07-03 01:38] To see the GUI go to: http://127.0.0.1:8188
+[2024-07-03 01:38] FETCH DATA from: F:\SD_ui\ComfyUI_windows\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Manager\extension-node-map.json [DONE]
